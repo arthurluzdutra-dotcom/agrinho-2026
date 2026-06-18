@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AGRINHO 2026 - Agro Forte, Futuro Sustentável</title>
-    <link rel="stylesheet" href="styless.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
 </head>
 <body>
     <!-- Header -->
@@ -16,6 +17,7 @@
                 <a href="#producao">Produção</a>
                 <a href="#sustentabilidade">Sustentabilidade</a>
                 <a href="#solucoes">Soluções</a>
+                <a href="#mais">Conheça Mais</a>
             </nav>
         </div>
     </header>
@@ -36,14 +38,14 @@
         <div class="container">
             <h2>Visão Geral do Programa</h2>
             
-            <p>O Agrinho é um programa educacional que visa promover a formação de jovens cidadãos conscientes dos desafios e oportunidades do agronegócio sustentável. Com foco na temática "Agro Forte, Futuro Sustentável: Equilíbrio entre Produção e Meio Ambiente", o programa busca contribuir para a construção de uma agricultura moderna, produtiva e responsável.</p>
+            <p>O Agrinho é um programa educacional que visa promover a formação de jovens cidadãos conscientes dos desafios e oportunidades do agronegócio sustentável. Com foco na temática "Agro Forte, Futuro Sustentável", o programa busca integrar conhecimentos técnicos, ambientais e sociais para fortalecer as comunidades rurais.</p>
 
             <div class="highlight">
-                <strong>Objetivo Principal:</strong> Sensibilizar estudantes e comunidades rurais sobre a importância de conciliar o crescimento da produção agrícola com a preservação dos recursos naturais e a sustentabilidade ambiental.
+                <strong>Objetivo Principal:</strong> Sensibilizar estudantes e comunidades rurais sobre a importância de conciliar o crescimento da produção agrícola com a preservação dos recursos naturais e valores comunitários.
             </div>
 
             <h3>Contexto Histórico</h3>
-            <p>O agronegócio brasileiro representa um dos pilares da economia nacional, respondendo por significativa parcela do PIB e das exportações. No entanto, a intensificação da produção agrícola apresenta desafios importantes quanto à gestão ambiental, conservação de solos, recursos hídricos e biodiversidade. O Agrinho surge como ferramenta educacional estratégica para formar consciência nas novas gerações sobre estes desafios.</p>
+            <p>O agronegócio brasileiro representa um dos pilares da economia nacional, respondendo por significativa parcela do PIB e das exportações. No entanto, a intensificação da produção exige estratégias que equilibrem produtividade com conservação ambiental.</p>
         </div>
     </section>
 
@@ -53,7 +55,7 @@
             <h2>Produção Agrícola Contemporânea</h2>
 
             <h3>Desafios da Produção Moderna</h3>
-            <p>A demanda global por alimentos cresce continuamente, exigindo aumentos significativos na produção agrícola. Estima-se que a população mundial atingirá 9.7 bilhões de pessoas até 2050, intensificando a pressão por maior produtividade nos campos.</p>
+            <p>A demanda global por alimentos cresce continuamente, exigindo aumentos significativos na produção agrícola. Estima-se que a população mundial atingirá 9.7 bilhões de pessoas em meados do século, o que impõe desafios em termos de eficiência e sustentabilidade.</p>
 
             <div class="grid">
                 <div class="card">
@@ -104,10 +106,10 @@
         <div class="container">
             <h2>Sustentabilidade Ambiental</h2>
 
-            <p>A sustentabilidade no contexto agrícola refere-se à capacidade de manter e melhorar a produção agrícola, preservando simultaneamente os ecossistemas naturais, a qualidade dos solos, dos recursos hídricos e da biodiversidade para as gerações futuras.</p>
+            <p>A sustentabilidade no contexto agrícola refere-se à capacidade de manter e melhorar a produção agrícola, preservando simultaneamente os ecossistemas naturais, a qualidade dos solos e a disponibilidade hídrica.</p>
 
             <div class="highlight">
-                <strong>Conceito Fundamental:</strong> Desenvolvimento sustentável no agronegócio é aquele que atende às necessidades do presente, sem comprometer a capacidade das futuras gerações de atenderem às suas próprias necessidades.
+                <strong>Conceito Fundamental:</strong> Desenvolvimento sustentável no agronegócio é aquele que atende às necessidades do presente, sem comprometer a capacidade das futuras gerações de suprir suas próprias necessidades.</p>
             </div>
 
             <h3>Pilares da Sustentabilidade Agrícola</h3>
@@ -228,15 +230,49 @@
         </div>
     </section>
 
+    <!-- Nova seção: Conheça Mais (abas) -->
+    <section id="mais" class="tabs-section">
+        <div class="container">
+            <h2>Conheça Mais — Agro Forte, Futuro Sustentável</h2>
+
+            <div role="tablist" aria-label="Mais sobre Agrinho" class="tablist">
+                <button id="tab-btn-educacao" role="tab" aria-selected="true" aria-controls="tab-educacao">Educação</button>
+                <button id="tab-btn-inovacao" role="tab" aria-selected="false" aria-controls="tab-inovacao">Inovação</button>
+                <button id="tab-btn-politicas" role="tab" aria-selected="false" aria-controls="tab-politicas">Políticas</button>
+                <button id="tab-btn-projetos" role="tab" aria-selected="false" aria-controls="tab-projetos">Projetos</button>
+            </div>
+
+            <div id="tab-educacao" role="tabpanel" aria-labelledby="tab-btn-educacao" class="tab-panel" data-active="true" tabindex="0">
+                <h3>Educação & Juventude</h3>
+                <p>Ideias e propostas para incluir temas de sustentabilidade e tecnologias agrícolas nas escolas e comunidades rurais. Material didático, feiras escolares e formação de multiplicadores são exemplos de ações possíveis.</p>
+            </div>
+
+            <div id="tab-inovacao" role="tabpanel" aria-labelledby="tab-btn-inovacao" class="tab-panel" data-active="false" tabindex="0">
+                <h3>Inovações Tecnológicas</h3>
+                <p>Drones, sensores, agricultura de precisão e como pequenas comunidades podem acessar essas tecnologias de baixo custo, além de exemplos de projetos de extensão rural que já aplicam essas ferramentas.</p>
+            </div>
+
+            <div id="tab-politicas" role="tabpanel" aria-labelledby="tab-btn-politicas" class="tab-panel" data-active="false" tabindex="0">
+                <h3>Políticas & Legislação</h3>
+                <p>Resumo das leis e políticas relevantes (Código Florestal, gestão hídrica, certificações) e orientações práticas para produtores e educadores implementarem ações em conformidade com a legislação.</p>
+            </div>
+
+            <div id="tab-projetos" role="tabpanel" aria-labelledby="tab-btn-projetos" class="tab-panel" data-active="false" tabindex="0">
+                <h3>Projetos Locais</h3>
+                <p>Casos práticos, iniciativas escolares e projetos comunitários que exemplificam o lema "Agro Forte, Futuro Sustentável". Ideias para replicação e parcerias locais.</p>
+            </div>
+        </div>
+    </section>
+
     <!-- Conclusão -->
     <section>
         <div class="container">
             <h2>Conclusão: Um Futuro Equilibrado</h2>
 
-            <p>O desafio de equilibrar produção agrícola com sustentabilidade ambiental é complexo, mas não impossível. Requer engajamento de múltiplos atores: produtores rurais, empresas, governo, instituições de pesquisa e sociedade civil.</p>
+            <p>O desafio de equilibrar produção agrícola com sustentabilidade ambiental é complexo, mas não impossível. Requer engajamento de múltiplos atores: produtores rurais, empresas, governos, universidades e a sociedade civil.</p>
 
             <div class="highlight">
-                <strong>Mensagem Central do Agrinho 2026:</strong> "Agro Forte, Futuro Sustentável" expressa a convicção de que uma agricultura robusta, moderna e competitiva é totalmente compatível com responsabilidade ambiental. De fato, a preservação dos recursos naturais é pré-requisito para a viabilidade de longo prazo do agronegócio.
+                <strong>Mensagem Central do Agrinho 2026:</strong> "Agro Forte, Futuro Sustentável" expressa a convicção de que uma agricultura robusta, moderna e competitiva é totalmente compatível com práticas que preservem o meio ambiente e promovam justiça social.
             </div>
 
             <h3>Chamado à Ação</h3>
